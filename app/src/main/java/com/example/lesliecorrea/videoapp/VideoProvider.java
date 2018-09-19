@@ -16,7 +16,7 @@ public class VideoProvider extends ContentProvider {
 
     @Override
     public AssetFileDescriptor openAssetFile(Uri uri, String mode) throws FileNotFoundException {
-        Log.e("Content Provider","Content Provider");
+        Log.d("Content Provider","Content Provider");
         AssetManager am = getContext().getAssets();
         String file_name = uri.getLastPathSegment();
         if(file_name == null)
