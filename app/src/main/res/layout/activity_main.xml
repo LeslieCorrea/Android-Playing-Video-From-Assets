@@ -4,9 +4,27 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-    <VideoView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/SampleVideoView" />
-
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#ef968e"
+          android:padding="5dp"
+          android:id="@+id/javaButton"
+          android:textStyle="bold"
+          android:text="Java version"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:textStyle="bold"
+          android:background="#6694c6f2"
+          android:padding="5dp"
+          android:id="@+id/kotlinButton"
+          android:layout_height="wrap_content"
+          android:text="Kotlin version"/>
+  </LinearLayout>
 </LinearLayout>

@@ -27,7 +27,7 @@ public class VideoProvider extends ContentProvider {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return afd;//super.openAssetFile(uri, mode);
+        return afd;
     }
 
     @Override

@@ -14,7 +14,7 @@ class KotlinVideoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("onCreate","onCreate")
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_java_video)
         mVideoView = findViewById(R.id.SampleVideoView) as VideoView
         val mediaController = MediaController(this)
         mVideoView.setMediaController(mediaController)

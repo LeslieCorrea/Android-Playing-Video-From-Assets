@@ -9,38 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!--<activity-->
-            <!--android:name=".MainActivity"-->
-            <!--android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"-->
-            <!--android:screenOrientation="portrait">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
-
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kotlin.KotlinVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".JavaVideoActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
+        android:screenOrientation="portrait"/>
         <provider
             android:name=".VideoProvider"
             android:authorities="com.example.lesliecorrea.videoapp"
             android:exported="true"
             android:grantUriPermissions="true" />
-
         <provider
             android:name=".kotlin.VideoProviderKotlin"
             android:authorities="com.example.lesliecorrea.videoapp.kotlin"
             android:exported="true"
             android:grantUriPermissions="true" />
-
-        <activity android:name=".kotlin.KotlinVideoActivity"
-        android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-        android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
