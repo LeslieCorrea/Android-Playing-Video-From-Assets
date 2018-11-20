@@ -18,6 +18,13 @@ Clone this repository and open the root folder in Android Studio.
 ### Built With
 * [Android Studio](https://developer.android.com/studio/).
 
+## Screenshots
+<p>
+  <img src="https://github.com/LeslieCorrea/Android-Playing-Video-From-Assets/blob/master/Screenshots/LandingPage.png" width="150" height="300" alt="LandingPage">
+  <img src="https://github.com/LeslieCorrea/Android-Playing-Video-From-Assets/blob/master/Screenshots/VideoPageOne.png" width="150" height="300" alt="VideoPageOne">
+  <img src="https://github.com/LeslieCorrea/Android-Playing-Video-From-Assets/blob/master/Screenshots/VideoPageTwo.png" width="150" height="300" alt="VideoPageTwo">
+ </p>
+
 ## Authors
 
 * **Leslie Correa** - *Contributor* - [LeslieCorrea](https://github.com/LeslieCorrea)
