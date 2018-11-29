@@ -12,7 +12,7 @@ This repository explains both java and kotlin way coding.
 ### Prerequisites
 [Android Studio](https://developer.android.com/studio/).
 
-### Deployment
+### Development
 Clone this repository and open the root folder in Android Studio.
 
 ### Built With
