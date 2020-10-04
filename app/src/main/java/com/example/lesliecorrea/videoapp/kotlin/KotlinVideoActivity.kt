@@ -18,7 +18,7 @@ class KotlinVideoActivity : AppCompatActivity() {
         mVideoView = findViewById(R.id.SampleVideoView) as VideoView
         val mediaController = MediaController(this)
         mVideoView.setMediaController(mediaController)
-        mVideoView.setVideoPath("content://com.example.lesliecorrea.videoapp.kotlin/video.mp4")
+        mVideoView.setVideoPath("content://com.example.lesliecorrea.videoapp.kotlin/big_buck_bunny.mp4")
         mVideoView.start()
     }
 }

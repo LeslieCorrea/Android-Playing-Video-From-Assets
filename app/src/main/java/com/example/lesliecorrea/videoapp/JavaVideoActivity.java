@@ -18,7 +18,7 @@ public class JavaVideoActivity extends AppCompatActivity {
         mVideoView = (VideoView) this.findViewById(R.id.SampleVideoView);
         MediaController mediaController = new MediaController(this);
         mVideoView.setMediaController(mediaController);
-        mVideoView.setVideoPath("content://com.example.lesliecorrea.videoapp/video.mp4");
+        mVideoView.setVideoPath("content://com.example.lesliecorrea.videoapp/big_buck_bunny.mp4");
         mVideoView.start();
     }
 }
