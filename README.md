@@ -18,6 +18,9 @@ Clone this repository and open the root folder in Android Studio.
 ### Built With
 * [Android Studio](https://developer.android.com/studio/).
 
+### Video
+* [Big Buck Bunny](https://peach.blender.org/download/).
+
 ## Screenshots
 <p>
   <img src="https://github.com/LeslieCorrea/Android-Playing-Video-From-Assets/blob/master/Screenshots/LandingPage.png" width="150" height="300" alt="LandingPage">
